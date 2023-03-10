@@ -3,7 +3,7 @@ import {DragElement} from "module-ll"
 import {dataSource} from "./json";
 
 export default function () {
-  const ipt = (props?: any) => {
+  const box = (props?: any) => {
     return <div>
       {props.content}
     </div>
@@ -11,7 +11,7 @@ export default function () {
   return <div>
     <DragElement
       dataSource={dataSource}
-      element={ipt}
+      element={box}
     ></DragElement>
   </div>
 }
