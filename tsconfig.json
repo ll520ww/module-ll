@@ -4,9 +4,23 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "baseUrl": "./",
+    "jsx": "react",
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "types": [
+      "jest",
+      "node"
+    ],
+    "declaration": true,
+    // 打包时生成类型声明文件
     "paths": {
       "@@/*": [
         ".dumi/tmp/*"
+      ],
+      "frontend-modularity-component": [
+        "./src/index.ts"
       ]
     }
   },

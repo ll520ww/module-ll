@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "module-ll",
   "version": "0.0.1",
   "description": "A static site based on dumi",
   "scripts": {
@@ -27,5 +27,8 @@
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "react-beautiful-dnd": "^13.1.1"
   }
 }
