@@ -11,7 +11,7 @@ export default defineConfig({
   apiParser: {},
   locales: [{id: 'zh-CN', name: '中文'}],
   autoAlias: true,
-  mfsu: false,
+  // mfsu: false,
   resolve: {
     docDirs: ['docs'], // 2.0 默认值,
     atomDirs: [{type: 'component', dir: 'src'}], // 2.0 默认值

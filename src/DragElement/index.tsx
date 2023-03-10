@@ -2,11 +2,29 @@ import React, {useEffect, useState} from 'react'
 import {DragDropContext, Draggable, Droppable} from "react-beautiful-dnd";
 
 interface DragElementProps {
+  /**
+   数据来源
+   */
   dataSource: Array<any>,
+  /**
+   要拖拽的组件
+   */
   element: (params?: any) => JSX.Element,
+  /**
+   拖动后组件的样式
+   */
   activeItemStyle?: any,
+  /**
+   组件的默认样式
+   */
   defaultItemStyle?: any
+  /**
+   拖动后的背景样式
+   */
   backgroundActiveColor?: any,
+  /**
+   默认背景样式
+   */
   backgroundColor?: any
 
 }
